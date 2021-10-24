@@ -1,7 +1,16 @@
 const ImageList = (props) => {
-	// console.log(props.images);
+	console.log(props.images);
 	const images = props.images.map((image) => {
-		return <img src={image.urls.regular} alt={'car no. 1'} />;
+		return (
+			<div key={image.id}>
+				<img src={image.urls.small} alt={image.description} />
+				<p>{image.alt_description}</p>
+				<p>{image.description}</p>
+				<br />
+				<br />
+				<br />
+			</div>
+		);
 	});
 
 	return <div>{images}</div>;

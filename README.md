@@ -1,3 +1,4 @@
-# React Photo Search App (in progress)
+# React Photo Search App
 
-### This project is currently _being built_. Visit [the site](https://searchanyphotos.netlify.app) to see the progress.
+### Live site: [searchanyphotos.netlify.app/](https://searchanyphotos.netlify.app)
+- Built with React + Semantic UI

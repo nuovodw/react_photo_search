@@ -16,7 +16,7 @@ class SearchBar extends React.Component {
 					<div className="middle aligned row">
 						<div className="column">
 							<div className="ui icon header">
-								<i class="search icon"></i>Image Search
+								<i className="search icon"></i>Image Search
 							</div>
 							<div className="field">
 								<div className="ui search">
@@ -31,7 +31,7 @@ class SearchBar extends React.Component {
 														this.setState({ term: e.target.value });
 													}}
 												/>
-												<i class="search icon"></i>
+												<i className="search icon"></i>
 											</div>
 										</div>
 									</form>
